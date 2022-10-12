@@ -168,10 +168,9 @@ var Product2= [
     },  
 ];
 
+reLoadM(Product2);
 
-reLoadM(robinData);
-
-function reLoadM(robinData){
+function reLoadM(Product2){
 
 // DATA
 
