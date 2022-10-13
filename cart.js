@@ -13,7 +13,7 @@ function reLoadM(cartThings){
             var div = document.createElement("div")
             document.querySelector("#container").append(div)
     
-            // inside div creating image and  image_url
+        
             var image = document.createElement("img");
             image.setAttribute("src", data.image_url);
             div.append(image);
