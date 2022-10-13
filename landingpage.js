@@ -26,7 +26,7 @@ trendingOffersData.map(function(elem){
         document.querySelector("#trendingOffers").append(boxDiv) 
 });
 
-// <!--Here I created the rightNowOffersData array -->    
+// <!--created the rightNowOffersData array -->    
 var rightNowOffersData=[{image:"https://static.thcdn.com/images/large/webp//productimg/300/300/13547807-1444926019361532.jpg",name:"SkinCeuticals AM/PM Replenishing Antioxidant Regimen Worth $449",bPrice:0,aPrice:395.12,pageUrl:"######"},
 {image:"https://static.thcdn.com/images/large/webp//productimg/300/300/13232822-1544908361367298.jpg",name:"SkinStore Selects Limited Edition Collection (Worth Over $350)",bPrice:111.00,aPrice:55.50,pageUrl:"######"},
 {image:"https://static.thcdn.com/images/large/webp//productimg/300/300/13232824-6374902588484311.jpg",name:"SkinStore Holiday Edit 2021 (Worth Over $500)",bPrice:150.00,aPrice:75,pageUrl:"######"},
@@ -63,7 +63,7 @@ rightNowOffersData.map(function(elem){
         document.querySelector("#rightNowOffers").append(boxDiv) 
 });
 
-// <!--Here I created the BlogData array -->    
+// <!--created the BlogData array -->    
 var BlogData=[{image:"https://static.thcdn.com/images/small/webp/widgets/121-us/00/original-pexels-kristin-vogt-54204-1_16-025300.jpg",name:"How to Protect Your Skin This Winter",content:"To help you in your search for the best skincare for dry skin in winter, we’ve curated a list of the best products to combat dry skin.",pageUrl:"######"},
 {image:"https://static.thcdn.com/images/small/webp/widgets/121-us/05/original-Webp.net-resizeimage_%2827%29-025305.jpg",name:"Hydration 101: Ingredient Focus",content:"Here are some of the top products that every moisture-starved skin type deserves during these winter months!",pageUrl:"######"},
 {image:"https://static.thcdn.com/images/small/webp/widgets/121-us/36/original-Untitled_design_-_2021-11-10T153711.183-083736.png",name:"Winter Skincare Routine",content:"We’re on hand to provide you with the very best products to keep your skin in optimum condition all season long.",pageUrl:"######"},
