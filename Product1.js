@@ -170,8 +170,6 @@ reLoadM(Product1);
 
 function reLoadM(Product1){
 
-
-
 // DATA
 
  displayDatas(Product1);
@@ -226,6 +224,8 @@ function displayDatas(Product1){
         })
     
         div.append(btn2);
+
+     
     })
     
 }
@@ -239,9 +239,10 @@ function wishlistAdd(data) {
     localStorage.setItem("quickbuy1", JSON.stringify(cartArray));
     localStorage.setItem("cartthings", JSON.stringify(cartThings));
     alert("Item Added");
-    reLoadM(Product1);
+    reLoadM(robinData);
 
 }
+
 
 function cartAdd(data) {
   
@@ -266,6 +267,7 @@ function navSlideOut(){
 function navSlideIn(){
    document.querySelector("#nav-link").style.left="-2000px"
 }
+
 
 
 function myFunction() {
