@@ -66,6 +66,8 @@ var Product1 = [
         box: "SkinCeuticals Gift",
         price: "105.00",
 
+
+        
     },
     {
         image_url: "https://static.thcdn.com/images/xsmall/webp//productimg/original/13516546-2844930071318699.jpg",
