@@ -192,70 +192,48 @@
 <body>
     <div id="main">
         <div class="container">
-
-            <div class="container_login">
-                <div class="login_box">
-
-
-                    <h2>Existing Customers</h2>
-                    <form>
-
-                        <label>*Email Address</label>
-                        <div class="c1">
-                            <input id="email" type="text" placeholder="Email Address" required>
-
-                        </div>
-                        <label>*Password</label>
-                        <div>
-                            <input id="password" type="password" placeholder="Password" required>
-
-                        </div>
-                        <input type="submit" value="SIGN IN" name="contine" id="button">
-                        <p>Or, Continue with</p>
-                        <div>
-                            <div id="socialconnect">
-                                <div class="facebook">
-                                    <img class="fb"
-                                        src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-512.png"
-                                        alt="">
-
-                                    <span id="ff">&nbsp;Facebook</span>
-
-
-                                </div>
-                                <div class="google">
-                                    <img class="go"
-                                        src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
-                                        alt="">
-
-                                    <span id="gg">&nbsp;Google</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
+        <div class="container_login">
+        <div class="login_box">
+        <h2>Existing Customers</h2>
+        <form>
+        <label>*Email Address</label>
+        <div class="c1">
+        <input id="email" type="text" placeholder="Email Address" required>
+        </div>
+        <label>*Password</label>
+        <div>
+        <input id="password" type="password" placeholder="Password" required>
+        </div>
+        <input type="submit" value="SIGN IN" name="contine" id="button">
+        <p>Or, Continue with</p>
+        <div>
+        <div id="socialconnect">
+        <div class="facebook">
+        <img class="fb"
+        src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-512.png"alt="">
+        <span id="ff">&nbsp;Facebook</span>
+        </div>
+        <div class="google">
+        <img class="go"
+        src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"alt="">
+        <span id="gg">&nbsp;Google</span></div>
+        </div>
+        </div>
+        </form>
+        </div>
+        </div>
         </div>
         <div class="container2">
             <h2>New Customers</h2>
-            <a href="Register.html"> <input type="submit" value="REGISTER" id="button1"></a>
+            <a href="signup.html"> <input type="submit" value="REGISTER" id="button1"></a>
         </div>
-
     </div>
-
     </div>
 </body>
-
 </html>
-
 <script>
         document.querySelector("form").addEventListener("submit", login)
         var loginArr = JSON.parse(localStorage.getItem("userInfo")) || [];
-
-
         function login(event) {
             event.preventDefault();
             var email = document.querySelector("#email").value
